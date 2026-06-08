@@ -252,6 +252,238 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  overflow: hidden;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+/* Background Image Layer */
+.index-hero-section .hero-bg-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.02);
+  transition: transform 6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.index-hero-section:hover .hero-bg-layer {
+  transform: scale(1.05);
+}
+
+/* Scrim Overlay */
+.index-hero-section .hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.45) 40%, rgba(0,0,0,0.75) 100%);
+  pointer-events: none;
+}
+
+/* Monogram Decoration */
+.index-hero-section .hero-monogram {
+  position: absolute;
+  top: 120px;
+  inset-inline-start: 40px;
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+/* Content Overlay */
+.index-hero-section .hero-overlay {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Headline */
+.index-hero-section .hero-headline {font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-light);
+  margin: 0;
+  max-width: 100%;}
+
+/* Gold Divider */
+.index-hero-section .hero-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 4px 0;
+}
+
+.index-hero-section .hero-divider svg {
+  display: block;
+}
+
+/* Subtitle */
+.index-hero-section .hero-subtitle {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-light);
+  text-shadow: 0 1px 8px rgba(0,0,0,0.5);
+  margin: 0;
+  max-width: 650px;
+  opacity: 0.95;
+}
+
+/* CTA Group */
+.index-hero-section .hero-cta-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+/* Primary CTA Button */
+.index-hero-section .hero-cta-primary {
+  border-radius: 100px;
+  padding: 14px 32px;
+  background: var(--accent);
+  color: #FFFFFF;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  letter-spacing: 0.02em;
+}
+
+.index-hero-section .hero-cta-primary:hover {
+  background: #C9A96E;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(201,169,110,0.35);
+}
+
+/* Secondary CTA Button */
+.index-hero-section .hero-cta-secondary {
+  background: transparent;
+  color: var(--text-light);
+  border: none;
+  padding: 12px 20px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--accent);
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+}
+
+.index-hero-section .hero-cta-secondary:hover {
+  color: var(--accent);
+  text-decoration-color: var(--text-light);
+  transform: translateY(-1px);
+}
+
+/* Bottom Divider */
+.index-hero-section .hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  .index-hero-section .hero-monogram {
+    top: 100px;
+    inset-inline-start: 16px;
+    transform: scale(0.8);
+  }
+
+  .index-hero-section .hero-overlay {
+    padding: 0 20px;
+    gap: 16px;
+  }
+
+  .index-hero-section .hero-headline {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .index-hero-section .hero-subtitle {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+  .index-hero-section .hero-cta-group {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .index-hero-section .hero-cta-primary,
+  .index-hero-section .hero-cta-secondary {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .index-hero-section .hero-divider-wrapper {
+    height: 60px;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+/* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "c35a255e-fd0f-4b82-b781-018d5c12b8b4"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -809,42 +1041,44 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-card" id="section-1780955752200-q659fqj0k" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/site-index-hero-image-1.webp" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="85" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true" id="section-1780955752200-q659fqj0k">
   <!-- Background Image Layer -->
-  <div class="index-hero-section__bg-wrapper">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Daylit luxury interior and architectural envelope in a contemporary residential space. Warm natural light streaming through tall windows onto refined stone flooring, with elegant furniture and clean architectural lines. The composition is spacious and gallery-like, shot from a corner perspective to show both interior volume and architectural detail. No people visible. The mood is quiet luxury and sophisticated calm." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="חלל פנים יוקרתי מואר באור יום - אדריכלות ועיצוב פנים" class="index-hero-section__bg-image">
-  </div>
+  <div class="hero-bg-layer" style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
 
-  <!-- Scrim Overlay Layer -->
-  <div class="index-hero-section__scrim" aria-hidden="true" style="opacity: 1"></div>
+  <!-- Scrim Overlay for Text Legibility -->
+  <div class="hero-scrim" aria-hidden="true"></div>
 
-  <!-- Decorative Motif: S/N Monogram -->
-  <div class="index-hero-section__monogram" aria-hidden="true">
-    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
-      <path d="M18,46 L18,14 L34,14 C40,14 44,17.5 44,22.5 C44,27.5 40,31 34,31 L26,31 L26,46 L18,46 Z M26,24 L33,24 C35.5,24 36.5,22.5 36.5,21 C36.5,19.5 35.5,18 33,18 L26,18 L26,24 Z" fill="var(--accent)" opacity="0.3"></path>
-      <line x1="6" y1="8" x2="54" y2="52" stroke="var(--accent)" stroke-width="1.5" opacity="0.25"></line>
+  <!-- Monogram Mark Decoration -->
+  <div class="hero-monogram" aria-hidden="true">
+    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <text x="30" y="38" text-anchor="middle" font-size="28" font-family="serif" font-weight="700" fill="var(--accent)" opacity="0.4">S/N</text>
+      <line x1="10" y1="48" x2="50" y2="48" stroke="var(--accent)" stroke-width="1.5" opacity="0.3"></line>
     </svg>
   </div>
 
-  <!-- Main Content Card -->
-  <div class="index-hero-section__card">
-    <!-- Gold Divider Line Motif -->
-    <div class="index-hero-section__gold-divider" aria-hidden="true"></div>
+  <!-- Content Overlay Group -->
+  <div class="hero-overlay">
+    <h1 class="hero-headline">אדריכלות ועיצוב פנים למרחבי מגורים מעודנים</h1>
+    
+    <!-- Gold Divider Line -->
+    <div class="hero-divider" aria-hidden="true">
+      <svg width="48" height="2" viewBox="0 0 48 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="48" height="2" fill="var(--accent)" opacity="0.8"></rect>
+      </svg>
+    </div>
 
-    <h1 class="index-hero-section__headline">אדריכלות ועיצוב פנים למרחבי מגורים מעודנים</h1>
-
-    <h3 class="index-hero-section__subtitle">תכנון אדריכלי, היתרי בנייה, שיפוץ בתים פרטיים, התאמת דירות קבלן, תוספות בנייה ועיצוב פנים יוקרתי — כל השירותים תחת קורת גג אחת</h3>
-
-    <div class="index-hero-section__cta-group">
-      <a href="/contact" class="index-hero-section__cta index-hero-section__cta--primary">צור קשר</a>
-      <a href="/projects" class="index-hero-section__cta index-hero-section__cta--secondary">לפרויקטים שלנו</a>
+    <h3 class="hero-subtitle">תכנון אדריכלי, היתרי בנייה, שיפוץ בתים פרטיים, התאמת דירות קבלן, תוספות בנייה ועיצוב פנים יוקרתי — כל השירותים תחת קורת גג אחת</h3>
+    
+    <div class="hero-cta-group">
+      <a href="/contact" class="hero-cta-primary btn-pill">צור קשר</a>
+      <a href="/projects" class="hero-cta-secondary btn-ghost">לפרויקטים שלנו</a>
     </div>
   </div>
 
-  <!-- Bottom Divider: Subtle Curved Dissolve -->
-  <div class="index-hero-section__divider-wrapper" aria-hidden="true" data-no-icon-edit="true">
-    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,55 Q150,35 300,50 T600,45 Q750,40 900,50 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path>
+  <!-- Bottom Flat Transition Divider -->
+  <div class="hero-divider-wrapper" aria-hidden="true">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,0 L1200,0 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
