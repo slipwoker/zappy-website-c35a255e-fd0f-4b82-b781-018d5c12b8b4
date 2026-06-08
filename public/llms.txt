@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://-c35a255e.zappy5.app
+https://example.com
 משרד אדריכלות ועיצוב פנים המעניק לכם מעטפת מלאה: מתכנון אדריכלי ועד עיצוב יוקרתי. צרו איתנו קשר והפכו כל חלל ליצירה חיה ומרגשת.
 
 ### שירותים
-https://-c35a255e.zappy5.app/services
+https://example.com/services
 מחפשים שירותי אדריכלות ועיצוב פנים מתוחכמים? מהיתרי בנייה ועד שיפוצים והרחבות, אנחנו הופכים רעיונות למציאות מדויקת. גלו איך נעצב לכם את החיים.
 
 ### פרויקטים
-https://-c35a255e.zappy5.app/projects
+https://example.com/projects
 היכנסו לגלריה של אדריכלות ועיצוב פנים והתרגשו מבתים פרטיים, דירות קבלן מותאמות וחללי יוקרה. כל פרויקט הוא סיפור של דיוק ויופי שמחכה לכם.
 
 ### אודות
-https://-c35a255e.zappy5.app/about
+https://example.com/about
 מאחורי כל קו וצבע עומדים אנשי מקצוע שמביאים ניסיון, תשוקה וחזון לעולם האדריכלות ועיצוב הפנים. בואו לפגוש את הצוות שמעצב את העתיד שלכם.
 
 ### צור קשר
-https://-c35a255e.zappy5.app/contact
+https://example.com/contact
 מוכנים להפוך את החלל שלכם למושלם? השאירו פרטים ונחזור אליכם עם כל מה שצריך לדעת על תכנון, עיצוב וליווי אישי באדריכלות ועיצוב פנים.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-c35a255e.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-c35a255e.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-c35a255e.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-c35a255e.zappy5.app/contact
-- Endpoint: https://-c35a255e.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -89,6 +89,6 @@ Architecture & Interior Design
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-c35a255e.zappy5.app/sitemap.xml
-- Robots: https://-c35a255e.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-c35a255e.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
