@@ -1,0 +1,94 @@
+# שוהם ונונו — Generative Engine Optimization Map
+
+> Shoham & Nono is an architecture and interior design firm offering a comprehensive range of services including architectural planning, building permits, home renovations, luxury interior design, contractor apartment customization, and construction additions. The firm combines technical expertise with aesthetic sensibility, catering to clients seeking both functional and visually refined living spaces — from private homes to upscale interior transformations.
+
+---
+
+## Pages
+
+### בית
+https://-c35a255e.zappy5.app
+משרד אדריכלות ועיצוב פנים המעניק לכם מעטפת מלאה: מתכנון אדריכלי ועד עיצוב יוקרתי. צרו איתנו קשר והפכו כל חלל ליצירה חיה ומרגשת.
+
+### שירותים
+https://-c35a255e.zappy5.app/services
+מחפשים שירותי אדריכלות ועיצוב פנים מתוחכמים? מהיתרי בנייה ועד שיפוצים והרחבות, אנחנו הופכים רעיונות למציאות מדויקת. גלו איך נעצב לכם את החיים.
+
+### פרויקטים
+https://-c35a255e.zappy5.app/projects
+היכנסו לגלריה של אדריכלות ועיצוב פנים והתרגשו מבתים פרטיים, דירות קבלן מותאמות וחללי יוקרה. כל פרויקט הוא סיפור של דיוק ויופי שמחכה לכם.
+
+### אודות
+https://-c35a255e.zappy5.app/about
+מאחורי כל קו וצבע עומדים אנשי מקצוע שמביאים ניסיון, תשוקה וחזון לעולם האדריכלות ועיצוב הפנים. בואו לפגוש את הצוות שמעצב את העתיד שלכם.
+
+### צור קשר
+https://-c35a255e.zappy5.app/contact
+מוכנים להפוך את החלל שלכם למושלם? השאירו פרטים ונחזור אליכם עם כל מה שצריך לדעת על תכנון, עיצוב וליווי אישי באדריכלות ועיצוב פנים.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-c35a255e.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-c35a255e.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-c35a255e.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-c35a255e.zappy5.app/contact
+- Endpoint: https://-c35a255e.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About שוהם ונונו
+Shoham & Nono is an architecture and interior design firm offering a comprehensive range of services including architectural planning, building permits, home renovations, luxury interior design, contractor apartment customization, and construction additions. The firm combines technical expertise with aesthetic sensibility, catering to clients seeking both functional and visually refined living spaces — from private homes to upscale interior transformations.
+
+## Services/Products
+- אדריכלות
+- עיצוב פנים
+- היתרי בנייה
+- תכנון אדריכלי
+- בית פרטי
+- שיפוץ בית
+- דירת קבלן
+- תוספות בנייה
+- שינויי דיירים
+- עיצוב פנים יוקרתי
+
+## Target Audience
+- בעלי בתים יוקרתיים
+- מנהלי נכסים מסחריים
+- בוני בתים חדשים
+
+## Industry
+Architecture & Interior Design
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-c35a255e.zappy5.app/sitemap.xml
+- Robots: https://-c35a255e.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-c35a255e.zappy5.app/llms-full.txt
